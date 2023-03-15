@@ -1,0 +1,196 @@
+:root {
+    font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    z-index: -2;
+}
+.linea_navegador {
+    background-image: url(../Images/navegador.jpg);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    border: solid rgba(14, 14, 13, 0.952);
+    border-style: inset;
+    height: 8vh;
+}
+.navegador_principal{
+    display: flex;
+    align-items:flex-end;
+    width: 35vw;      
+}
+.UNICO{
+    display: flex;
+    text-align:start;
+    width: 10vw;
+    color: rgba(241, 246, 82, 0.568);
+}
+.LOGO{
+    display: inline-flex;
+}
+.BOTON_CSS2{
+    display: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.TITULOS{
+    color: aliceblue;
+    inline-size: 12vh 12vw;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1vw;
+}
+.sub_titulo{
+    color: antiquewhite;
+    padding: 2rem;
+}
+.img_index_1{
+    height: 35vw;
+    width: 90vh;
+    object-fit: contain;
+}
+main{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
+}
+.parrafo_secu_index{
+    font-style:arial;
+    color: azure;
+    text-align:center;
+    font-size: 2rem;
+    inline-size: 30vw;
+}
+.IMG_secun{
+    height: 50vh;
+    width: 35vw;
+}
+.prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.UNO{
+    display: flex;
+    justify-content:space-around;
+    width: 100vw;
+    height: 40vh;
+    padding-top: 1rem
+}  
+.texto{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    width: 30vw ;
+    padding: 3rem;
+}
+.texto2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    width: 20vw;
+    padding: 2rem;
+}
+.texto3{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    width: 30vw;
+    padding: 3rem;
+}
+.todo{
+    display: flex;
+    align-items: stretch;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+}
+.UNICAIMG{
+    display: flex;
+    align-self: center;   
+}
+.CONT1{
+    color:beige;
+    display: flex;
+    align-self: center; 
+    width: 27vw;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.NAVI{   
+    color: aliceblue;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 2rem;
+    padding-inline-start: 20%;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: aliceblue;
+    margin-top: 3rem;
+    width: 80vh;
+    height: 60vh;
+    padding: 2rem;
+    font-size: 2rem;
+    border-style: dashed;
+}
+.fotos_beneficios {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.fotoOne {
+    padding: 1rem;
+    z-index: 1;
+}
+.fotoTwo {
+    z-index: 1;
+    padding: 1rem;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.479);
+    list-style-position: inside;
+    width: 35vw;
+    height: 90vh;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.primer_lista {
+    color: aliceblue;
+    font-style: oblique;
+    width: 50vh;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.segunda_lista {
+    color: aliceblue;
+    font-style: oblique;
+    width: 50vh;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+footer{
+    color: aliceblue;
+}
