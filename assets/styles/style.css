@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
     border: solid rgba(14, 14, 13, 0.952);
     border-style: inset;
-    height: 8vh;
+    height: 7vh;
 }
 .navegador_principal{
     display: flex;
@@ -30,7 +30,9 @@ body{
     display: flex;
     text-align:start;
     width: 10vw;
-    color: rgba(241, 246, 82, 0.568);
+    color: rgba(254, 254, 252, 0.568);
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .LOGO{
     display: inline-flex;
@@ -46,14 +48,14 @@ header{
 }
 .TITULOS{
     color: aliceblue;
-    inline-size: 12vh 12vw;
+    inline-size: 10vh 10vw;
     text-align: center;
     font-size: 2rem;
     margin: 1vw;
 }
 .sub_titulo{
     color: antiquewhite;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 .img_index_1{
     height: 35vw;
@@ -80,34 +82,40 @@ main{
 .prueba{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 .UNO{
     display: flex;
     justify-content:space-around;
-    width: 100vw;
-    height: 40vh;
+    width: 70vw;
+    height: 35vh;
     padding-top: 1rem
 }  
 .texto{
+    display: flex;
+    align-self: center;
     color: aliceblue;
     text-align: center;
-    font-size: 2rem;
-    width: 30vw ;
-    padding: 3rem;
+    font-size: 1.8rem;
+    width: 20vw ;
+    padding: 2rem;
 }
 .texto2{
+    display: flex;
+    align-self: center;
     color: aliceblue;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 20vw;
     padding: 2rem;
 }
 .texto3{
+    display: flex;
+    align-self: center;
     color: aliceblue;
     text-align: center;
-    font-size: 2rem;
-    width: 30vw;
+    font-size: 1.8rem;
+    width: 20vw;
     padding: 3rem;
 }
 .todo{
@@ -140,6 +148,12 @@ main{
     margin: 2rem;
     padding-inline-start: 20%;
 }
+.foContac{
+    display: flex;
+    justify-content:flex-start;
+    text-align: justify;
+    padding-top:  1.2rem;
+}
 table {
     display: flex;
     justify-content: center;
@@ -148,51 +162,64 @@ table {
     margin-top: 3rem;
     width: 80vh;
     height: 60vh;
-    padding: 2rem;
     font-size: 2rem;
-    border-style: dashed;
+}
+
+th{
+    border-style: dotted;
+    border-color: aqua;
+    padding: 1rem;
+    text-align: center;
+}
+td{
+    text-align: center;
+    border-style: double;
+    border-color: aqua;
 }
 .fotos_beneficios {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 10vw;
 }
 .fotoOne {
     padding: 1rem;
-    z-index: 1;
 }
 .fotoTwo {
-    z-index: 1;
     padding: 1rem;
 }
 ul {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    justify-content:space-evenly;
+    align-items: center;
     background-color: rgba(240, 248, 255, 0.479);
-    list-style-position: inside;
     width: 35vw;
-    height: 90vh;
+    height: 18vh;
     text-align: center;
-    font-size: 1.5rem;
-    padding: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .primer_lista {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
     color: aliceblue;
     font-style: oblique;
-    width: 50vh;
-    margin-top: 3rem;
-    padding: 2rem;
+    padding-bottom: 2rem;
 }
 .segunda_lista {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
     color: aliceblue;
     font-style: oblique;
-    width: 50vh;
-    margin-top: 3rem;
-    padding: 3rem;
+    padding-top: 2rem ;
 }
 footer{
     color: aliceblue;
+}
+.foSchedu{
+    display: flex;
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 form{
@@ -200,6 +227,7 @@ form{
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-evenly;
+    align-items: center;
 }
 .datos {
     background-color: rgb(255, 255, 255);
@@ -209,20 +237,48 @@ form{
     display: flex;
     flex-direction: column;
     text-align: center;
-    text-decoration: dotted;
-    border-color: red;
-    border-style: double;
+    padding: 1rem;
+    border-color: black;
+    border-style: dotted;
     width: 30vw;
     height: 35vh;
 }
-
+.bot_Input{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 4vw;
+    height: 4vh;
+}
 legend{
     background-color: aliceblue;
     color: black;
     font-size: 1.2rem;
+    border-style: dotted;
+    border-color: black;
 }
 
 .img_rompe{
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    align-self: center;
+}
+
+iframe{
+    padding: 2rem;
+}
+
+.final{
+    background-image: url(../Images/gym_full.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
 }
